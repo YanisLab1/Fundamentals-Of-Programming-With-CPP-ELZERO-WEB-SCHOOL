@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anis\\Desktop\\FundamentalsOf Programming With C\u002B\u002B ELZERO WEB SCHOOL\\WEEK 1\\1.Lecture\\VisualStudio\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B27D25A2-972D-48B9-B80B-05FEE6247842}|Project1\\Project1.vcxproj|C:\\Users\\Anis\\Desktop\\FundamentalsOf Programming With C\u002B\u002B ELZERO WEB SCHOOL\\WEEK 1\\1.Lecture\\VisualStudio\\Project1\\Project1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B27D25A2-972D-48B9-B80B-05FEE6247842}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Anis\\Desktop\\FundamentalsOf Programming With C\u002B\u002B ELZERO WEB SCHOOL\\WEEK 1\\1.Lecture\\VisualStudio\\Project1\\Project1\\Source.cpp",
+              "RelativeDocumentMoniker": "Project1\\Source.cpp",
+              "ToolTip": "C:\\Users\\Anis\\Desktop\\FundamentalsOf Programming With C\u002B\u002B ELZERO WEB SCHOOL\\WEEK 1\\1.Lecture\\VisualStudio\\Project1\\Project1\\Source.cpp*",
+              "RelativeToolTip": "Project1\\Source.cpp*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T11:22:38.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
