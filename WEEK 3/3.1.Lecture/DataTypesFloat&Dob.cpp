@@ -25,11 +25,11 @@ int main()
   cout << sizeof(dob) << endl; // 8
   cout << dob << endl;         // 20.5
 
-  float fl = 10.5f + 9.5f;
+  float fl = 10.5f + 9.5f; // .f to precise data type for compiler 
   cout << sizeof(fl) << endl; // 4
   cout << fl << endl;         // 20
 
-  auto mix = 10.f;
+  auto mix = 10.f; // just 10. compiler treats it as double
 
   return 0;
 }

@@ -4,7 +4,7 @@
   - Data Examples In Real Life
   --- Integer => 5000, 10, -100
   --- String => "Elzero Web School", "Osama Elzero", "100A"
-  --- Boolean => true, false
+  --- Boolean => true 1, false 2
   --- Float => 18.5, 1900.50
   --- Array => ["Osama", "Ahmed", "Sayed", "Mahmoud"]
   - Why We Choose Data ?
@@ -20,24 +20,24 @@ using namespace std;
 
 int main()
 {
-    int num = 2;
-    char c = 'b';
-    string name = "Anis";
-    bool status = true;
+  int num = 2;
+  char c = 'b';
+  string name = "Anis";
+  bool status = true;
 
-    cout << sizeof(num) << "\n";
-    cout << sizeof(c) << "\n";
-    cout << sizeof(name) << "\n";
-    cout << sizeof(status) << "\n";
+  cout << sizeof(num) << "\n";
+  cout << sizeof(c) << "\n";
+  cout << sizeof(name) << "\n";
+  cout << sizeof(status) << "\n";
 
-    int numOne = 100;
-    int numTwo = 30;
-    string nameOne = "Boukhatem";
+  int numOne = 100;
+  int numTwo = 30;
+  string nameOne = "Boukhatem";
 
-    float result = (float) numOne / (float) numTwo ;
-    cout << result << "\n" ;
+  float result = (float) numOne / (float) numTwo ;
+  cout << result << "\n" ;
 
-    // int resultTwo = numOne / nameOne; cant do this operation beacause of data type string 
+  // int resultTwo = numOne / nameOne; cant do this operation beacause of data type string 
 
-    return 0;
+  return 0;
 }
