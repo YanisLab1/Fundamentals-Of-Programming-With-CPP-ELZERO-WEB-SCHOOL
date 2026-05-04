@@ -16,6 +16,6 @@ cout << b << "\n"; // -100
 cout << c << "\n"; // 100
 cout << d << "\n"; // 500.55
 
+return 0;
 
-     return 0;
 }
