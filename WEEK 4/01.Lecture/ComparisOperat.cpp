@@ -29,7 +29,7 @@ int main()
 
   cout << (16 < 18) << "\n"; // 1 => True
 
-  cout << (40 >= 18) << "\n"; // 1 => True
+  cout << (40 <= 18) << "\n"; // 0 => False
   cout << (18 >= 18) << "\n"; // 1 => True
   return 0;
 }
