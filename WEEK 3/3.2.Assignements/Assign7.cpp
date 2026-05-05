@@ -14,6 +14,5 @@ int main()
      cout << char (d-d) << endl;
 
      return 0;
-
      // Output Needed "EWS"
 }

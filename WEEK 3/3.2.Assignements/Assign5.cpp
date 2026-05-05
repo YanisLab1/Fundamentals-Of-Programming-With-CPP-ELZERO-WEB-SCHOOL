@@ -7,12 +7,11 @@ int main()
      char b = '&';
      char c = '%';
      char d = 'A';
-
+     
      cout << "ASCII Value of ~ Is " << int(a) << endl;
      cout << "ASCII Value of & Is " << int(b) << endl;
      cout << "ASCII Value of % Is " << int(c) << endl;
      cout << "ASCII Value of A Is " << int(d) << endl;
-
      
      return 0;
 
