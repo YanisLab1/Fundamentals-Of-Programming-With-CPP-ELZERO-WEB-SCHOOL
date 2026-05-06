@@ -1,12 +1,12 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
 int main()
 {
-int num1 = 100;
-int num2 = 10;
-int num3 = 100;
-int num4 = 211;
+  int num1 = 15;
+int num2 = -10;
+int num3 = 15;
+int num4 = 61;
 
 // Do Not Edit Any Condition
 
@@ -52,14 +52,14 @@ if (num4 - (num1 + num3) + num2 == 21)
 else
   cout << "Condition 7 Is False\n";
 
-/* Output Needed
-"Condition 1 Is True"
-"Condition 2 Is True"
-"Condition 3 Is True"
-"Condition 4 Is True"
-"Condition 5 Is True"
-"Condition 6 Is True"
-"Condition 7 Is True" */
+  return 0;
 
-     return 0;
+// Output Needed
+//"Condition 1 Is True"
+//"Condition 2 Is True"
+//"Condition 3 Is True"
+//"Condition 4 Is True"
+//"Condition 5 Is True"
+//"Condition 6 Is True"
+//"Condition 7 Is True"
 }

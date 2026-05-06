@@ -1,24 +1,25 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
 int main()
 {
-     int by = 82; // by => Birth Year
-     int s = 500; // s => Salary
+  int by = 82; // by => Birth Year
+  int s = 500; // s => Salary
+  /* 
+  if (by > 80)
+  {
+    if (s < 600)
+      cout << "Ok\n";
+    else
+      cout << "High\n";
+  }
+  else
+  {
+    cout << "Not Ok\n";
+  }
+  */
 
-      cout << ( by > 80 ? (s < 600 ? "Ok" : "High") : "Not Ok" );
-     
-     /*if (by > 80)
-     {
-          if (s < 600)
-          cout << "Ok\n";
-          else cout << "High\n";
-     }
-     
-     else
-     {
-          cout << "Not Ok\n";
-     }*/
-
-     return 0;
+  cout << ((by > 80) ? (s < 600) ? "Ok" : "High" : "Not Ok");
+  
+  return 0;
 }
