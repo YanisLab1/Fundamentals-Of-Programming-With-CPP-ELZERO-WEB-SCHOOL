@@ -1,6 +1,19 @@
 /*
   Control Flow
-  - Switch
+  - Switch accept int or char only
+  
+  syntaxe :
+    switch (variable)
+    {
+      case 1:
+      (what to do)
+      break; (if you wish to stop)
+      case 2 : (if you choose to do same thing)
+      case 3 : 
+      (different thing to do)
+      break;
+      default : (all previous cases are not true)
+    }
 */
 
 #include <iostream>

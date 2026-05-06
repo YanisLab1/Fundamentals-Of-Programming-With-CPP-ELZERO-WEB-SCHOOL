@@ -3,7 +3,17 @@
   - If ... else if ... else
 
   Syntax
-  if (Condition Is True)
+  if (First Condition Is True)
+  {
+    // Do Something
+  }
+  
+  else if (Second condition is True)
+  {
+    // Do Something
+  }
+  
+  else (All Conditions are False)
   {
     // Do Something
   }
