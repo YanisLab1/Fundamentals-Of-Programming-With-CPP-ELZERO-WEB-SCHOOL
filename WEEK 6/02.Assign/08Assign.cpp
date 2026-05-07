@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
   // Your Code Here
-  array<int, 3> nums = {4, 4, 4};
+  array <int, 3> nums;
 
   // Do Not Edit
   nums.fill(100);

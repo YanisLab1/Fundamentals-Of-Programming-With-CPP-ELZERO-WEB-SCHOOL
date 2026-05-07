@@ -1,28 +1,41 @@
-
-
-#include <iostream> 
+#include <iostream>
+#include <array>
 using namespace std;
 
 int main()
 {
-     // Example 1
-     //int vals[] = {100, 200, 600, 200, 100};
+  //array <int, 5> vals = {100, 200, 600, 200, 100};
+  //array <int, 4> vals = {100, 200, 200, 100};
+  //array <int, 5> vals = {100, 300, 600, 200, 100};
 
-     // Example 2
-     //int vals[] = {100, 200, 200, 100};
+  //if (vals.front() == vals.back() && vals.at(1) == vals.at(2))
+  //  cout << "Array Is Palindrome" << endl;
+  //else 
+  //  cout << "Array Is Not Palindrome" << endl;
 
-     // Example 3
-     int vals[] = {100, 300, 600, 200, 100};
+  //int vals[] = {100, 200, 600, 200, 100};
+  //int vals[] = {100, 200, 200, 100};
+  int vals[] = {100, 300, 600, 200, 100};
 
-     if (vals[0] == vals[size(vals) - 1] && vals[0 + 1] == vals[size(vals) - 2] )
-     {
-          cout << "Array Is Palindrome" << endl;
-     } 
+  if (vals[0] == vals[size(vals) - 1] && vals[1] == vals[size(vals) - 2])
+    cout << "Array Is Palindrome" << endl;
+  else 
+    cout << "Array Is Not Palindrome" << endl;
+  
+  // Output
+  //"Array Is Palindrome"
+  
+  // Example 2
+  //int vals[] = {100, 200, 200, 100};
+  
+  // Output
+  //"Array Is Palindrome"
+  
+  // Example 3
+  //int vals[] = {100, 300, 600, 200, 100};
+  
+  // Output
+  //"Array Is Not Palindrome"
 
-     else 
-     {
-          cout << "Array Is Not Palindrome" << endl;
-     }
-
-     return 0;
+  return 0;
 }
