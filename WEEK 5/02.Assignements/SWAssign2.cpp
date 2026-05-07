@@ -8,18 +8,16 @@ int main()
 
   switch (day)
   {
-     case 1 :
-     case 2 :
-     case 3 : 
-     cout << "Shop Is Open";
-     break;
-    
-    case 4:
-    case 5:
-    cout << "5 Shop Is Closed";
-    break;\
-    
-    default:
+  case 1:
+  case 2:
+  case 3:
+    cout << "Shop Is Open";
+    break;
+  case 4:
+  case 5:
+    cout << "Shop Is Closed";
+    break;
+  default:
     cout << "Day Is Not Valid";
   }
 

@@ -3,28 +3,31 @@ using namespace std;
 
 int main()
 {
-     int year;
-     cin >> year;
+  int year;
+  cout << "Enter a Year: " ;
+  cin >> year;
 
-     switch (year)
-     {
-          case 1982 : cout << "My Birth Day" << endl;
-          break;
+  switch (year)
+  {
+  case 1982:
+    cout << "My Birth Day\n";
+    break;
+  case 1989:
+    cout << "My First Work\n";
+    break;
+  case 1995:
+    cout << "Windows 95\n";
+    break;
+  case 2000:
+    cout << "Windows Millennium\n";
+    break;
+  case 2002:
+    cout << "Created My vBulletin Forum\n";
+    break;  
+  default:
+    cout << "No Events in This Year\n";
+    break;
+  }
 
-          case 1989 : cout << "My First Work" << endl;
-          break;
-
-          case 1995 : cout << "Windows 95" << endl;
-          break;
-
-          case 2000 : cout << "Windows 95" << endl;
-          break;
-
-          case 2002 : cout << "Created My vBulletin Forum" << endl;
-          break;
-
-          default : cout << "No Events in This Year" << endl;
-     }
-
-     return 0;
+  return 0;
 }
