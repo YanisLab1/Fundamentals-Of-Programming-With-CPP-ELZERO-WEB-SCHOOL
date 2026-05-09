@@ -1,10 +1,63 @@
+/*
+  Loop
+  - Compare
+  --- For => Specific Number Of Loops
+  --- While => Loop As Long Condition Is True
+  --- Do While => Always Execute Once
 
+  Create Three Apps
+  -- Count Positive & Even Numbers Only
+  -- Guess The Number
+  -- Reversed Elements From User
+*/
 
 #include <iostream> 
 using namespace std;
 
 int main()
 {
+  // Count Positive and Even Numbers
+  int result = 0;
+  int nums[] = {10, 20, -20, 13, 30, -30, 40};
+
+  for (int i = 0; i < size(nums); i++)
+  {
+    if (nums[i] % 2 == 0 && nums[i] > 0)
+    {
+      result += nums[i];
+    }
+    else
+    {
+      continue;
+    }
+  }
+  cout << result << endl;
+
+  // Guess The Number
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
      /*
      
      Count Positive & Even Numbers Only
@@ -64,25 +117,42 @@ int main()
 
      cout << "Thanks for playing!";
      
-     */
+     
+     //*/
 
-     int vals[5];
-     int inp;
+     //
 
-     cout << "Type 5 Numbers To Reverse\n";
+//     int vals[5];
+     
+     //int inp;
 
-     for (int i = 4; i > -1; i--)
-     {
-          cin >> inp;
-          vals[i] = inp;
-     }
+     //
+     
+     //cout << "Type 5 Numbers To Reverse\n";
 
-     cout << "======================\n";
+     //
+     
+     //for (int i = 4; i > -1; i--)
+     
+     //{
+     
+     //     cin >> inp;
 
-     for (int i = 0; i < size(vals); i++)
-     {
-          cout << vals[i] << "\n";
-     }
+//          vals[i] = inp;
+     
+     //}
+
+     //
+     
+     //cout << "======================\n";
+
+     //
+     
+     //for (int i = 0; i < size(vals); i++)
+     
+     //{
+     //     cout << vals[i] << "\n";
+     //}
      
      return 0;
 }

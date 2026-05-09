@@ -5,7 +5,10 @@
   Syntax
   while (Condition Is True)
   {
-
+    do something
+    increment or decrement 
+    if (Condition)
+    break;
   }
 */
 

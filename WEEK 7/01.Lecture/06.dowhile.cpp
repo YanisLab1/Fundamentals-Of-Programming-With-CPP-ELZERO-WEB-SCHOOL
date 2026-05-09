@@ -1,11 +1,12 @@
 /*
   Loop
   - Loop With Do...While
+  - to do something before checking condition
 
   Syntax
   do
   {
-
+    block of code
   } while (Condition Is True);
 */
 
