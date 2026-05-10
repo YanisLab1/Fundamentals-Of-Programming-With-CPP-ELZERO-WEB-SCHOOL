@@ -25,4 +25,5 @@ int main ()
           cout << i2 << endl;
           i2++;
      } while (i2 < 11);
+     return 0;
 }
